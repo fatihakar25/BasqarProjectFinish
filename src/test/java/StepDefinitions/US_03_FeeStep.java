@@ -4,7 +4,7 @@ import Pages.FeeContent;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class _3_FeeStep {
+public class US_03_FeeStep {
 
     FeeContent feeContent = new FeeContent();
 
