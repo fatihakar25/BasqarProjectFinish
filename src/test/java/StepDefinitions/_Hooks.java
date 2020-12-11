@@ -44,7 +44,11 @@ public class _Hooks {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+
         }
+
+
+        Driver.quitDriver();
 
 
     }
