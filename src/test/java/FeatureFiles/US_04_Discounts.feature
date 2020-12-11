@@ -14,7 +14,7 @@ Feature: Login Functionality
     When When User Create a Discount name as "<DescriptionName>"  name as "<integrationCode>" name as "<Priority>"
     And  Discount Succes message should be displayed
     Examples:
-      | DescriptionName  | integrationCode | Priority |
+      | DescriptionName        | integrationCode | Priority |
       | Kleidung Kinder Garten | 201             | 1        |
 
 
