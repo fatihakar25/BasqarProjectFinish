@@ -13,7 +13,7 @@ Feature: Nationalities Functionality
       | addButton     |
 
     Then User sending the keys in the  content class
-      | name | Diyar-ı Basqar |
+      | name | Diyari Basqar |
 
     And Click on the element in the content class
       | saveButton |
@@ -29,12 +29,12 @@ Feature: Nationalities Functionality
 
 
     Then User sending the keys in the  content class
-      | nameSearch | Diyar-ı Basqar |
+      | nameSearch | Diyari Basqar |
 
     And Click on the element in the content class
       | searchButton |
 
-    When User edit the nationalities "Diyar-ı Basqar" to "Diyar-ı Techno"
+    When User edit the nationalities "Diyari Basqar" to "Diyari Techno"
 
 
     Then Success message should be displayed
@@ -47,12 +47,12 @@ Feature: Nationalities Functionality
       | nationalities |
 
     Then User sending the keys in the  content class
-      | nameSearch | Diyar-ı Techno |
+      | nameSearch | Diyari Techno |
 
     And Click on the element in the content class
       | searchButton |
 
-    And User delete the nationalities "Diyar-ı Techno"
+    And User delete the nationalities "Diyari Techno"
 
 
     Then Success message should be displayed
@@ -66,14 +66,14 @@ Feature: Nationalities Functionality
       | addButton     |
 
     Then User sending the keys in the  content class
-      | name | Diyar-ı Basqar |
+      | name | Diyari Basqar |
 
     And Click on the element in the content class
       | saveButton |
       | addButton  |
 
     Then User sending the keys in the  content class
-      | name | Diyar-ı Basqar |
+      | name | Diyari Basqar |
 
     And Click on the element in the content class
       | saveButton |
