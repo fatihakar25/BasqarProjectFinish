@@ -17,7 +17,7 @@ Feature: Notifications Functionality
       | notifications |
       | addbutton    |
     Then Send text with inputbox name
-      | inputNatificationName | omergoker  |
+      | inputNatificationName | Team1  |
     And click on button with button name
       | type |
       | studentPayment |
@@ -35,7 +35,7 @@ Feature: Notifications Functionality
       | notifications |
       | addbutton    |
     Then Send text with inputbox name
-      | inputNatificationName | omergoker18  |
+      | inputNatificationName | omergoker19  |
     And click on button with button name
       | type |
       | studentPayment |
@@ -45,12 +45,12 @@ Feature: Notifications Functionality
       | saveButton |
       | backbutton |
     Then Send text with inputbox name
-      | nameSearch | omergoker18 |
+      | nameSearch | omergoker19 |
     And click on button with button name
       | searchButton |
       | editButton   |
     Then Send text with inputbox name
-      | inputNatificationName | omergoker1806 |
+      | inputNatificationName | omergoker789 |
     And click on button with button name
       | saveButton |
     Then Control to verification message
@@ -63,7 +63,7 @@ Feature: Notifications Functionality
       | notifications |
       | addbutton    |
     Then Send text with inputbox name
-      | inputNatificationName | omergoker37  |
+      | inputNatificationName | omergoker45  |
     And click on button with button name
       | type |
       | studentPayment |
@@ -73,7 +73,7 @@ Feature: Notifications Functionality
       | saveButton |
       | backbutton |
     Then Send text with inputbox name
-      | nameSearch | omergoker37 |
+      | nameSearch | omergoker45 |
     And click on button with button name
       | searchButton |
       | deletButton   |
